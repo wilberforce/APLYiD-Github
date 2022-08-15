@@ -1,0 +1,26 @@
+// http://versions.bulma.io/0.9.1/documentation/customize/variables/
+
+$family-sans-serif: 
+    // IOS mac:  https://developer.apple.com/fonts/system-fonts/
+    "Helvetica Neue Thin", "Helvetica",
+    // windows: https://docs.microsoft.com/en-us/typography/fonts/windows_10_font_list
+    "Arial Narrow", 
+    // linux, android
+    "Roboto", "Oxygen", "Ubuntu", 
+    // Fall back
+    sans-serif;
+
+//$primary:#4FB3F8;
+$primary: #3F6470;
+
+$scheme-main: #99B8C2;
+
+
+//$text-strong: #3F6470;
+//$menu-item-hover-color
+
+$menu-item-hover-color:white;
+$menu-item-hover-background-color: $primary;
+
+// Password
+$input-background-color: #BCD3DB;

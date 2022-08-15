@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@yangss/vue3-i18n": "^1.1.4",
+    "bulma": "^0.9.3",
+    "vue": "^3.0.5",
+    "vue-native-websocket-vue3": "^3.1.4",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vicons/ionicons4": "^0.10.0",
+    "@vicons/ionicons5": "^0.10.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8",
+    "vite-svg-loader": "^2.1.0",
+    "vue-tsc": "^0.0.24"
+  }
+}
