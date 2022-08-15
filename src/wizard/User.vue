@@ -2,8 +2,6 @@
   <section class="has-text-centered" :style="clientWidth">
     <p>{{ $t("welcome.intro") }}</p>
 
-    {{ $route.params.id }}
-
     <div v-if="user.login" class="user">
       <img :src="user.avatar_url" />
       <h1 class="is-size-1">{{ user.login }}</h1>
